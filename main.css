@@ -9,13 +9,14 @@ body{
 ul{
     list-style: none;
 }
-.navbar{
+.navbars{
+    border-right: 1px solid var(--under-color);
     width: 270px;
+    height: 100%;
     position: fixed;
-    
 }
 .containers{
-    margin-left: 290px;
+    margin-left: 300px;
     position: fixed;
 }
 .conten{
@@ -23,21 +24,21 @@ ul{
     margin-top: 100%;
 
 }
-.logo {
-    margin-right: 100px;
+.navbars .logo {
+    margin-right: 80px;
     position: relative;
 }
-.logo a{
+.navbars .logo a{
     color: black;
     font-weight: 700;
     letter-spacing: 4px;
-    padding: 10px 10px;
+    padding: 10px 15px;
     position: relative;
 }
-.logo a span{
+.navbars .logo a span{
     font-family: 'Times New Roman', cursive;
 }
-.logo a::before{
+.navbars .logo a::before{
     content: '';
     position: absolute;
     width: 30px;
@@ -47,7 +48,7 @@ ul{
     bottom: 0;
     left: 0;
 }
-.logo a::after{
+.navbars .logo a::after{
     content: '';
     position: absolute;
     width: 30px;
@@ -56,4 +57,19 @@ ul{
     border-right: 5px solid var(--cache-color);
     top: 0;
     right: 0;
+}
+.navbars li{
+    margin-bottom: 50px;
+    display: block;
+}
+.navbars li a{
+    font-weight: 500;
+    letter-spacing: 4px;
+    display: block;
+    border-bottom: 1px solid var(--under-color);
+    color: black;
+    padding: 5px 15px;
+}
+.navbars li a.active{
+    color: var(--cache-color);
 }
