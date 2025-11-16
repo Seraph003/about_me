@@ -25,7 +25,7 @@ export default {
   data() {
     return {
       projects: [
-        { title: "Portfolio Website", desc: "Website pribadi", image: Portfolio, link: "#" },
+        { title: "Portfolio Website", desc: "Website pribadi", image: Portfolio, link: "https://github.com/Seraph003/about_me" },
         { title: "???", desc: "???", image: "", link: "#" },
         { title: "???", desc: "???", image: "", link: "#" },
       ]
