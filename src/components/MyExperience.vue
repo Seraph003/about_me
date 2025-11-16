@@ -17,8 +17,8 @@ export default {
   data() {
     return {
       list: [
-        { title: "Fullstack Developer Freelance", year: "2022 - Sekarang", desc: "Membuat website berbagai perusahaan" },
-        { title: "Intern Programmer", year: "2021", desc: "Membantu develop sistem internal" }
+        { title: "PT Eska Link — Fullstack Web Developer (Internship) ", year: "2024 – 2025", desc: "Mengembangkan aplikasi web menggunakan Laravel (backend) dan Vue.js (frontend)." },
+        { title: "Universitas Kristen Krida Wacana — Assistant Lecturer", year: "2022 – 2024", desc: "Mendampingi pengajaran praktikum pemrograman menggunakan Greenfoot untuk SMAK Mater Dei dan SMAK Kalam Kudus" }
       ]
     }
   }
